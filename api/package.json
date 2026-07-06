@@ -1,0 +1,15 @@
+{
+  "name": "campus-marketplace-api",
+  "version": "1.0.0",
+  "description": "Azure Functions backend for Campus Marketplace Notice Board",
+  "main": "listings/index.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
